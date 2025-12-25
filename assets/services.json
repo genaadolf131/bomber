@@ -1,0 +1,157 @@
+[
+  {
+    "phone_codes": [
+      7
+    ],
+    "type": "SMS",
+    "method": "GET",
+    "url": "https://api-prod.viled.kz/tizilimer/api/v1/users/sms",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "ru",
+      "content-type": "application/json; charset=UTF-8",
+      "currency": "KZT",
+      "locale": "ru",
+      "origin": "https://viled.kz",
+      "referer": "https://viled.kz/",
+      "sec-ch-ua": "\"Microsoft Edge\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0"
+    },
+    "params": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "phone_codes": [
+      7
+    ],
+    "type": "SMS",
+    "method": "POST",
+    "url": "https://ecco.ru/ajax/ajax.php",
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "accept-language": "ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "cookie": "PHPSESSID=3r3f93pl81o62a1j08hctgnfkn; usessionid=a9db1c3d1b4a63985d8a752a09ce649fc4ccdc0294c9acc8b3a7eede1e1f4912-feddac604631ab9acf288e6f1fda5e45-3735684; segment5050=50-50.1; cart=a%3A0%3A%7B%7D; rr-VisitorSegment=2%3A2; _ym_uid=1712169510900994457; _ym_d=1712169510; _ga=GA1.2.527145042.1712169510; _gid=GA1.2.274625901.1712169510; _gat_UA-38888758-1=1; _ymab_param=8rhE5YrYlGfrrPz6uvtPH9ed2_hq7PIoHQI0wlnJNTugo3FRiQAKhBIevAquR1-bCgTcgFEwG01F2HwEU81mDAps29Q; _userGUID=0:luk5ip7q:xYBnUF5ivx32ccLDZ9XxqA_qH5todJux; dSesn=335f1a1f-f272-360b-4aea-34b04c1e63ca; _dvs=0:luk5ip7q:QSMxt_fQlB9QRktHZwX_c9S37Ys1Cz3B; cookie_popup=1; _ym_isad=1; _gat=1; _dc_gtm_UA-38888758-1=1; flocktory-uuid=61c00392-7013-4d5a-891c-d051aaae351a-5; tmr_lvid=fc88d704d0ecb442769cf66ff33dcdee; tmr_lvidTS=1712169513178; g4c_x=1; mindboxDeviceUUID=37a27b8e-d849-4d4f-a13d-e08db0e9ec15; directCrm-session=%7B%22deviceGuid%22%3A%2237a27b8e-d849-4d4f-a13d-e08db0e9ec15%22%7D; adrdel=1; adrcid=A3pzgO3BmBFewjiZKQ3Vk4w; _ym_visorc=b; tmr_detect=0%7C1712169515555; settings_autodetect_disable=1; settings_region_id=132; settings_country=%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F; settings_region=%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9+%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD; settings_town=%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD; settings_autoregion=1; domain_sid=vpNslmab0QIMctCL-sDkf%3A1712169516029; Fuuid=c2002280-6e61-4dea-b987-227a840695cb,1712169516; Duuid=c2002280-6e61-4dea-b987-227a840695cb; Dsign=y; _gali=div_login_block; _ga_Z9MF4T28G9=GS1.1.1712169509.1.1.1712169534.0.0.0",
+      "origin": "https://ecco.ru",
+      "referer": "https://ecco.ru/",
+      "sec-ch-ua": "\"Microsoft Edge\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "data": {
+      "ajax_event": "set_auth_type",
+      "event": "ajax",
+      "show_description": "1",
+      "show_register": "1",
+      "auth_type": "phone",
+      "phone_login": "{phone:+7 (***) ***-**-**}"
+    }
+  },
+  {
+    "phone_codes": [
+      7
+    ],
+    "type": "SMS",
+    "method": "POST",
+    "url": "https://onlinedoctor.ru/mobile/send_sms_code/",
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Accept-Language": "ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "Connection": "keep-alive",
+      "Cookie": "_ym_uid=1704726654816896240; _ym_d=1704726654; SESSID=6m88pkjltved2mcv183dt5520a; timeout_tz=1; check_city_shown=1; _ym_isad=2; _ym_visorc=w",
+      "Origin": "https://onlinedoctor.ru",
+      "Referer": "https://onlinedoctor.ru/doctors/",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "X-CSRFToken": "gsL4SrKJ2MGSWTdfqPeEvnQ_mx7suBl8x8KAwIiJzEQ",
+      "X-Requested-With": "XMLHttpRequest",
+      "sec-ch-ua": "\"Microsoft Edge\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "data": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "phone_codes": [
+      7
+    ],
+    "type": "SMS",
+    "method": "POST",
+    "url": "https://valta.ru/bitrix/services/main/ajax.php",
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "accept": "*/*",
+      "accept-language": "ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "bx-ajax": "true",
+      "content-type": "application/x-www-form-urlencoded",
+      "cookie": "PHPSESSID=8cz2BriEXrv3rfoi9CR0vpBdKeQKqJI4; BITRIX_SM_GUEST_ID=2616248; BITRIX_SM_LAST_ADV=5_Y; BITRIX_SM_SALE_UID=21754426; BITRIX_CONVERSION_CONTEXT_s1=%7B%22ID%22%3A20%2C%22EXPIRE%22%3A1712437140%2C%22UNIQUE%22%3A%5B%22conversion_visit_day%22%5D%7D; _gid=GA1.2.85549300.1712421751; _gat_gtag_UA_52444218_17=1; BX_USER_ID=104ae4c8487577c4433d7aed32dfbf92; _ym_uid=1712421751125857632; _ym_d=1712421751; _ym_isad=2; _ym_visorc=w; cookie_notify=showed; BITRIX_SM_LAST_VISIT=06.04.2024%2019%3A42%3A56; _ga_4ESKKEVKD6=GS1.1.1712421751.1.1.1712421781.30.0.0; _ga=GA1.2.1144781229.1712421751",
+      "origin": "https://valta.ru",
+      "referer": "https://valta.ru/register/current_client/person/private_zooservis/",
+      "sec-ch-ua": "\"Microsoft Edge\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
+      "x-bitrix-csrf-token": "d1f2945aeabaf10d17a4c37263504b5d",
+      "x-bitrix-site-id": "s1"
+    },
+    "params": {
+      "mode": "class",
+      "c": "citfact:register",
+      "action": "sendSms"
+    },
+    "data": {
+      "phone": "{phone:+7 *** ***-**-**}"
+    }
+  },
+  {
+    "phone_codes": [
+      7
+    ],
+    "type": "SMS",
+    "method": "GET",
+    "url": "https://erck.ru/ajax/sms_code.php",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Language": "ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+      "Connection": "keep-alive",
+      "Cookie": "PHPSESSID=7mi7b51bpkn3b52lge83cl2n86; utm_source=organic; loan_summ=7000; loan_period=14; _ym_uid=171242747869687122; _ym_d=1712427478; _ym_isad=2; waSessionId=205f56e7-2296-f23f-41db-901c2f7e2174; waUserId_1000131150-dubl_chat_bota_dlya_-1000131150-doc-20944757529=0eb95427-4bbf-e30f-86f5-327735a4728b",
+      "Referer": "https://erck.ru/",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "X-Requested-With": "XMLHttpRequest",
+      "sec-ch-ua": "\"Microsoft Edge\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "params": {
+      "action": "send",
+      "phone": "{phone:+7(***)***-****}",
+      "via_call": "0",
+      "registration": "1",
+      "prolongation": "0",
+      "reset_password": "0",
+      "\u0441onfirm_order": "0",
+      "hh": "5b4ca24d86513c145286b68f47848447"
+    }
+  }
+]
